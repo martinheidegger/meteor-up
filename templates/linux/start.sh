@@ -55,5 +55,5 @@ fi
     --link=$APPNAME:backend \
     --publish=<%= sslConfig.port %>:443 \
     --name=$APPNAME-frontend \
-    meteorhacks/mup-frontend-server /start.sh
+    martinheidegger/mup-frontend-server-big-requests /start.sh
 <% } %>
